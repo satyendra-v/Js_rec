@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Accent Classification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  <div id = "heading">
+        <h1>ACCENT CLASSIFICATION</h1>    
+  </div>
+
+  
+
+  <div id="paragraph">
+    <p>My name is Alex Roy. I'm from Boston where I did my schooling. Since my childhood, I've been very interested in computers. So I choose to study Computer Science and Engineering at the North-Eastern University. I'm a good student. I like all subjects of computer science but Artificial Intelligence and Machine Learning are my favorite subjects.
+        </p>
+  </div>
+
+    <div id="controls">
+  	 <button id="recordButton">Record</button>
+  	 <!-- <button id="pauseButton" disabled>Pause</button> -->
+  	 <button id="stopButton" disabled>Stop</button>
+     
+     <button id="clearButton" disabled>Clear Record</button>
+    </div>
+    <button id="predictButton">Predict</button>
+
+    <div id="formats">Format: start recording to see sample rate</div>
+  	<h3>Recordings</h3>
+  	<ol id="recordingsList"></ol>
+    <!--<img id = "image" src = "images/recording.gif">-->
+    <div id = "time">Time:<span id = "timer">1:00</span></div>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="satya.js"></script>
+    
+  </body>
+</html>
